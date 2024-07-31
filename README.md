@@ -1,3 +1,11 @@
+This is SmartBrain App.
+The main feature of this app is to recognize faces hidden in the pictures.
+It uses API fetching to detect the hidden faces.
+It also need you to Register or Sign in before using the feature.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
