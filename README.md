@@ -3,76 +3,36 @@ The main feature of this app is to recognize faces hidden in the pictures.
 It uses API fetching to detect the hidden faces.
 It also need you to Register or Sign in before using the feature.
 
+1. Project Overview
+Purpose: To detect and display faces in images using a web interface.
+Technologies Used: React.js for the frontend.
 
+2. Core Features
+Image Upload: Allow users to upload images for face detection.
+Face Detection Visualization: Draw bounding boxes around detected faces in the uploaded images feed.
+Display Detection Results: Show the number of faces detected and relevant metadata (e.g., confidence score).
 
+3. User Interface (UI) Components
+Header: Title of the application and a brief description.
+Image Upload Component: Button to upload images from local storage.
+Canvas Component: Overlay for drawing bounding boxes on detected faces.
+Results Section: Display detection statistics and messages.
 
-# Getting Started with Create React App
+5. State Management
+Use React’s useState and useEffect hooks for managing application state, such as:
+Uploaded images
+Detected face data
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+6. Styling and Responsiveness
+Use CSS or a CSS framework (like Bootstrap or Material-UI) to make the application visually appealing and responsive across devices.
 
-## Available Scripts
+7. Error Handling and User Feedback
+Provide user feedback for various scenarios, such as:
+Loading states when processing images or video.
+Error messages for unsupported file types or detection failures.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Future Enhancements
+Implement additional features like:
+Emotion detection using facial expressions.
+Save and share detected images.
+Integration with user accounts to track history or results.
